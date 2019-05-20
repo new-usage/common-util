@@ -19,8 +19,8 @@ public class PropertiesUtil {
 
 	/**
 	 * @Description：第一种  Properties
-	 * @param: 资源文件的路径从根目录 / 开始
-	 * 
+	 * @param  以 / 开头，则这样的路径是指定绝对路径， 
+	 * @param  一种不以 / 开头， 则路径是相对与这个class所在的包的
 	 */
 
 	public static Properties getProperties(String name) throws Exception {
