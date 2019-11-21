@@ -4,4 +4,6 @@
 .project
 target/
 .settings/
-logs/
+.idea/
+*.iml
+home/

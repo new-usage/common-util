@@ -16,12 +16,10 @@ import java.util.Random;
  * @author QingXu
  * @date 2018年12月13日 下午4:09:46
  */
-public class MakeDataUtil {
+public class MakeDataUtils {
 
 	/**
 	 * 随机生成名字
-	 * 
-	 * @param dataLength
 	 * @return
 	 */
 	public static String makeChinessName() {
@@ -233,8 +231,6 @@ public class MakeDataUtil {
 
 	/**
 	 * 生成第18位身份证号
-	 * 
-	 * @param chars
 	 * @return 身份证校验码的计算方法
 	 *         将前面的身份证号码17位数分别乘以不同的系数。从第一位到第十七位的系数分别为：7－9－10－5－8－4－2－1－6－3－7－9－10－5－8－4－2。
 	 *         将这17位数字和系数相乘的结果相加。 用加出来和除以11，看余数是多少？
